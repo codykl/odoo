@@ -58,7 +58,7 @@ const setupSteps = [{
     run: "drag_and_drop iframe #wrap",
 }];
 
-const formatErrorMsg = "format is not supported. Try with: .gif, .jpe, .jpeg, .jpg, .png, .svg";
+const formatErrorMsg = "format is not supported. Try with: .gif, .jpe, .jpeg, .jpg, .png, .svg, .webp";
 
 wTourUtils.registerWebsitePreviewTour('test_image_upload_progress', {
     url: '/test_image_progress',
